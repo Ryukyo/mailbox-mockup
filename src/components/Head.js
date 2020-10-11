@@ -3,10 +3,10 @@ import '../style/head.css';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
-import calendar from "../assets/icon_calender.svg"
-import search from "../assets/icon_search.svg"
+import calendarIcon from "../assets/icon_calender.svg"
+import searchIcon from "../assets/icon_search.svg"
 
-export default function Head ({numberOfMails}) {
+export default function Head ({numberOfMails, search}) {
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(null);
     const [inputValue, setInputValue] = useState(startDate)
@@ -20,14 +20,14 @@ export default function Head ({numberOfMails}) {
       console.log(inputValue)
     };
 
-    const startSearchByDate = (startDate, endDate) => {
+    /* const startSearchByDate = (startDate, endDate) => {
       console.log("searching")
-    }
+    } */
 
     return (
         <div className="head">
            <div className="searchByDate">
-             <img src={calendar} className="calendar" alt="calendar" width="25"/>
+             <img src={calendarIcon} className="calendar" alt="calendar" width="25"/>
                <DatePicker
                 id="date"
                 selected={inputValue}
@@ -37,7 +37,7 @@ export default function Head ({numberOfMails}) {
                 selectsRange
                 dateFormat={["yyyy/M/d", "yyyy/M/d"]}
               />
-              <img src={search} className="search" alt="search" width="30" onClick={() => {startSearchByDate(startDate, endDate)}}/> 
+              <img src={searchIcon} className="search" alt="search" width="30" onClick={() => {search(startDate, endDate)}}/> 
            </div> 
 
            <div className="resultNumber">
