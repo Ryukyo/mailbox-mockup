@@ -1,23 +1,27 @@
- [
-        {
-            "id" : 1,
-            "from" : "user1",
-            "to" : "userA",
-            "subject" : "test1",
-            "date" : "2020/10/12"
-        },
-        {
-            "id" : 2,
-            "from" : "user2",
-            "to" : "userB",
-            "subject" : "test2",
-            "date" : "2020/10/13"
-        },
-        {
-            "id" : 3,
-            "from" : "user3",
-            "to" : "userC",
-            "subject" : "test3",
-            "date" : "2020/10/14"
-        }
-    ]
+[
+    {
+        "id": 1,
+        "from": "user1",
+        "to": "userA",
+        "subject": "test1",
+        "date": "2020/10/12",
+        "body": "blablabla"
+    },
+    {
+        "id": 2,
+        "from": "user2",
+        "to": "userB",
+        "subject": "test2",
+        "date": "2020/10/13",
+        "body": "blablabla2",
+        "attachment": true
+    },
+    {
+        "id": 3,
+        "from": "user3",
+        "to": "userC",
+        "subject": "test3",
+        "date": "2020/10/14",
+        "body": "blablabla3"
+    }
+]
