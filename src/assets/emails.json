@@ -4,7 +4,7 @@
         "from": "user1",
         "to": "userA",
         "subject": "test1",
-        "date": "2020/10/12",
+        "date": "2020/10/16",
         "body": "blablabla"
     },
     {
@@ -12,7 +12,7 @@
         "from": "user2",
         "to": "userB",
         "subject": "test2",
-        "date": "2020/10/13",
+        "date": "2020/10/15",
         "body": "blablabla2",
         "attachment": true
     },
