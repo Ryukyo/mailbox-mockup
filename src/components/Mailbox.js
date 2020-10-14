@@ -12,25 +12,25 @@ export default function Mailbox (props) {
             let mailToDisplay = props.emails.filter((mail) => {
               return mail.id === emailId[0]
             });
-            console.log("mail to display", mailToDisplay)
+            // console.log("mail to display", mailToDisplay)
             setSelectedEmail(<Email 
-                id={mailToDisplay.id}
-                from={mailToDisplay.from}
-                to={mailToDisplay.to}
-                subject={mailToDisplay.subject}
-                date={mailToDisplay.date}
-                body={mailToDisplay.body}
+                id={mailToDisplay[0].id}
+                from={mailToDisplay[0].from}
+                to={mailToDisplay[0].to}
+                subject={mailToDisplay[0].subject}
+                date={mailToDisplay[0].date}
+                body={mailToDisplay[0].body}
             />)
         }
-    }, emailId)
+    }, [emailId, props.emails])
 
       const handleSelectEmail = (id) => {
         if (emailId[0] === null) {
           setEmailId([id]);
-          console.log("set id to", emailId)
+          // console.log("set id to", emailId)
         } else {
           setEmailId([null])
-          console.log("set id to", emailId)
+          // console.log("set id to", emailId)
         }
       };
 

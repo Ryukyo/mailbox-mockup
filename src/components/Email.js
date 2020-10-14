@@ -1,6 +1,8 @@
 import React from 'react'
+// import '../style/email.css';
 
 export default function Email (props) {
+
     return (
         <div className="email">
         <dl className="meta dl-horizontal">
