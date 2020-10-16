@@ -5,15 +5,16 @@
         "to": "userA",
         "subject": "test1",
         "date": "2020/10/16",
-        "body": "blablabla"
+        "body": "this is the body of mail 1",
+        "attachment": false
     },
     {
         "id": 2,
         "from": "user2",
         "to": "userB",
         "subject": "test2",
-        "date": "2020/10/15",
-        "body": "blablabla2",
+        "date": "2020/10/17",
+        "body": "this is the body of mail 2",
         "attachment": true
     },
     {
@@ -21,7 +22,8 @@
         "from": "user3",
         "to": "userC",
         "subject": "test3",
-        "date": "2020/10/14",
-        "body": "blablabla3"
+        "date": "2020/10/18",
+        "body": "this is the body of mail 3",
+        "attachment": false
     }
 ]

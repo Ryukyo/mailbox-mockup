@@ -14,7 +14,6 @@ function App() {
   const startSearchByDate = (startDate, endDate) => {
     // Filter emails from JSON sample file (usually get the from endpoint) by start and end date (including)
     let mailsWithinDateRange = emailsFromJSON.filter((mail) => {
-      console.log(mail.date)
       return moment(mail.date).isBetween(startDate, endDate, "day", true)
     })
      
