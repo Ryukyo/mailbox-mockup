@@ -20,10 +20,6 @@ export default function Head ({numberOfMails, search}) {
       console.log(inputValue)
     };
 
-    /* const startSearchByDate = (startDate, endDate) => {
-      console.log("searching")
-    } */
-
     return (
         <div className="head">
            <div className="searchByDate">
@@ -35,7 +31,7 @@ export default function Head ({numberOfMails, search}) {
                 startDate={startDate}
                 endDate={endDate}
                 selectsRange
-                dateFormat={["yyyy/M/d", "yyyy/M/d"]}
+                dateFormat={"yyyy/M/d"}
               />
               <img src={searchIcon} className="search" alt="search" width="30" onClick={() => {search(startDate, endDate)}}/> 
            </div> 
