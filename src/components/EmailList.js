@@ -2,6 +2,7 @@ import React from 'react'
 import EmailListItem from './EmailListItem'
 import clipIcon from "../assets/icon_clip.svg"
 import useSortableData from "../helper/customHook";
+import '../style/table.css';
 
 export default function EmailList (props) {
   const { emailList, requestSort, sortConfig } = useSortableData(props.emails);
@@ -49,7 +50,7 @@ export default function EmailList (props) {
               Subject
             </button>
           </th>
-          <th></th>
+          <th><button type="button"/></th>
           <th>
             <button
               type="button"

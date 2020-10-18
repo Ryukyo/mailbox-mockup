@@ -7,27 +7,58 @@
 .searchByDate {
   position: relative;
   float: left;
-  top: 2vh;
-  left: 5%;
+  margin-top: 2%;
+  height: 28px;
+  margin-left: 5%;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.react-datepicker-wrapper {
+  position: relative;
+  height: 20px;
+  margin-bottom: 50px;
+  padding: none;
+}
+
+.react-datepicker__input-container {
+  position: inherit;
+}
+
+#date {
+  position: inherit;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  /* margin: 3px 3px; */
 }
 
 .resultNumber {
-  position: relative;
+  position: fixed;
   float: left;
-  top: 5vh;
+  top: 7%;
   left: 5%;
   font-weight: bold;
+  margin-top: 1%;
 }
 
 .headerLine {
-  position: relative;
+  position: fixed;
   color: "black";
   height: 1;
   width: 90%;
-  top: 6vh;
+  top: 10%;
+  left: 5%;
 }
 
-/* .calendar {
-  color: black;
-  /* height: 5%;
-} */
+.calendar {
+  height: 18px;
+  margin: 5px 5px;
+}
+
+.search {
+  height: 18px;
+  padding: 5px 5px;
+  background-color: lightgray;
+  border-left: 1px solid;
+}

@@ -4,7 +4,7 @@
         "from": "user1",
         "to": "userA",
         "subject": "test1",
-        "date": "2020/10/16",
+        "date": "2020/10/22",
         "body": "this is the body of mail 1",
         "attachment": false
     },
@@ -13,7 +13,7 @@
         "from": "user2",
         "to": "userB",
         "subject": "test2",
-        "date": "2020/10/17",
+        "date": "2020/10/20",
         "body": "this is the body of mail 2",
         "attachment": true
     },

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/emptySelection.css';
 
 export default function EmptySelection () {
     return (
