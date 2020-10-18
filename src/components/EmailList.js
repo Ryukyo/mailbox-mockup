@@ -23,7 +23,7 @@ export default function EmailList (props) {
       <table className="email-list-table">
       <thead>
         <tr>
-          <th>
+          <th width="25%">
             <button
               type="button"
               onClick={() => requestSort('from')}
@@ -32,7 +32,7 @@ export default function EmailList (props) {
               From
             </button>
           </th>
-          <th>
+          <th width="25%">
             <button
               type="button"
               onClick={() => requestSort('to')}
@@ -41,7 +41,7 @@ export default function EmailList (props) {
               To
             </button>
           </th>
-          <th>
+          <th width="50%"> 
             <button
               type="button"
               onClick={() => requestSort('subject')}

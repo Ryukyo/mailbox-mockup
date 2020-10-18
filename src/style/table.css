@@ -1,5 +1,6 @@
 .email-viewer {
   position: relative;
+  display: block;
   top: 30vh;
   padding: 25px;
 }
