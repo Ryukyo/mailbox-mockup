@@ -16,7 +16,7 @@ function App() {
     let mailsWithinDateRange = emailsFromJSON.filter((mail) => {
       return moment(mail.date).isBetween(startDate, endDate, "day", true)
     })
-     
+     console.log(startDate, endDate)
     // Set number of mails to length of filtered array and pass the filtered array to mailbox component
     setEmailsToDisplay(mailsWithinDateRange)
     setNumberOfMails(mailsWithinDateRange.length)

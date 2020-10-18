@@ -61,4 +61,8 @@ tbody tr:hover {
   th {
     display: block;
   }
+
+  td[data-th]:before {
+    content: attr(data-th);
+  }
 }

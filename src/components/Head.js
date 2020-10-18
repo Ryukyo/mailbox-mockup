@@ -13,25 +13,28 @@ export default function Head ({numberOfMails, search}) {
   
     const onChange = dates => {
       const [start, end] = dates;
+      // let convertedStartDate = end.toISOString().split('T')[0]
+      // console.log(convertedStartDate.replace(/-/g, "/"))
       setStartDate(start);
       setEndDate(end);
-      console.log(startDate, end)
-      setInputValue(startDate)
-      console.log(inputValue)
+      
+      // Trying to set the inputValue to a combination of the start and end date, hoping it would be displayed in the DatePicker
+      // did not work, since the DatePicker ("selected") seems to expect a date object, not a string
+      setInputValue(end)
     };
 
     return (
         <div className="head">
            <div className="searchByDate">
-             <img src={calendarIcon} className="calendar" alt="calendar" width="25"/>
-               <DatePicker
-                id="date"
-                selected={inputValue}
-                onChange={onChange}
-                startDate={startDate}
-                endDate={endDate}
-                selectsRange
-                dateFormat={"yyyy/M/d"}
+              <img src={calendarIcon} className="calendar" alt="calendar" width="25"/>
+              <DatePicker
+              id="date"
+              selected={inputValue}
+              onChange={onChange}
+              startDate={startDate}
+              endDate={endDate}
+              selectsRange
+              dateFormat={"yyyy/M/d - yyyy/M/d"}
               />
               <img src={searchIcon} className="search" alt="search" width="30" onClick={() => {search(startDate, endDate)}}/> 
            </div> 
