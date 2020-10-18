@@ -5,7 +5,7 @@ export default function Email (props) {
 
     return (
       <div className="email">
-        <dl className="meta dl-horizontal">
+        <dl className="dl-horizontal">
           <dt>From</dt>
           <dd>{props.from}</dd>
 
@@ -18,7 +18,7 @@ export default function Email (props) {
           <dt>Date</dt>
           <dd>{props.date}</dd>
         </dl>
-        <div className="body" dangerouslySetInnerHTML={{__html: props.body}}></div>
+        <div className="email-body" dangerouslySetInnerHTML={{__html: props.body}}></div>
       </div>
     )
 }

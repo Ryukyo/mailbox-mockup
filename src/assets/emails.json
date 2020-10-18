@@ -1,29 +1,47 @@
 [
     {
         "id": 1,
-        "from": "user1",
-        "to": "userA",
+        "to": "user1@test.com",
+        "from": "userA@test.com",
         "subject": "test1",
         "date": "2020/10/22",
-        "body": "this is the body of mail 1",
+        "body": "This is the body of mail 1",
         "attachment": false
     },
     {
         "id": 2,
-        "from": "user2",
-        "to": "userB",
+        "to": "user2@test.com",
+        "from": "userB@test.com",
         "subject": "test2",
         "date": "2020/10/20",
-        "body": "this is the body of mail 2",
+        "body": "This is the body of mail 2",
         "attachment": true
     },
     {
         "id": 3,
-        "from": "user3",
-        "to": "userC",
+        "to": "user3@test.com",
+        "from": "userC@test.com",
         "subject": "test3",
-        "date": "2020/10/18",
-        "body": "this is the body of mail 3",
+        "date": "2020/10/25",
+        "body": "This is the body of mail 3",
         "attachment": false
+    },
+    {
+        "id": 4,
+        "to": "user4@test.com",
+        "from": "userC@test.com",
+        "subject": "test3",
+        "date": "2020/10/24",
+        "body": "This is the body of mail 4",
+        "attachment": false
+    },
+    {
+        "id": 5,
+        "to": "user5@test.com",
+        "from": "userZ@test.com",
+        "subject": "test3",
+        "date": "2020/10/23",
+        "body": "This is the body of mail 5",
+        "attachment": true
     }
 ]

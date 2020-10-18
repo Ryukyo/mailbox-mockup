@@ -1,8 +1,7 @@
 .email-viewer {
-  position: relative;
-  display: block;
-  top: 30vh;
-  padding: 25px;
+  position: absolute;
+  top: 35%;
+  margin-left: 5%;
 }
 
 table {
@@ -55,4 +54,11 @@ tbody tr:hover {
   background-color: #e0e0e0;
   color: blue;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 40em) {
+  td,
+  th {
+    display: block;
+  }
 }

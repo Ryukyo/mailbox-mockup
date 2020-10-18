@@ -1,0 +1,26 @@
+dl {
+  width: 100%;
+  overflow: hidden;
+}
+
+.email-body {
+  margin-left: 5%;
+}
+
+@media (min-width: 450px) {
+  .dl-horizontal dt {
+    display: block;
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+  .dl-horizontal dd {
+    margin-left: 200px;
+  }
+}
