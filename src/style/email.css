@@ -4,7 +4,8 @@ dl {
 }
 
 .email-body {
-  margin-left: 5%;
+  margin-left: 170px;
+  width: 70vw;
 }
 
 @media (min-width: 450px) {

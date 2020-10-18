@@ -2,10 +2,11 @@
   "name": "hennge-mailbox-mockup",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Florian Fejer",
+    "email": "florian.fejer@hotmail.de"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "moment": "^2.29.1",
     "react": "^16.13.1",
     "react-datepicker": "^3.2.2",
@@ -32,8 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "file-loader": "^6.1.1"
   }
 }

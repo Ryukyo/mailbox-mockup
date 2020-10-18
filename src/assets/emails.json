@@ -41,7 +41,7 @@
         "from": "userZ@test.com",
         "subject": "test3",
         "date": "2020/10/23",
-        "body": "This is the body of mail 5",
+        "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
         "attachment": true
     }
 ]
