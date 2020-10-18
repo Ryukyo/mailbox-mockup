@@ -15,14 +15,7 @@
 }
 
 .react-datepicker-wrapper {
-  position: relative;
-  height: 20px;
-  margin-bottom: 50px;
-  padding: none;
-}
-
-.react-datepicker__input-container {
-  position: inherit;
+  float: left;
 }
 
 #date {
@@ -30,7 +23,7 @@
   border: none;
   font-family: inherit;
   font-size: inherit;
-  /* margin: 3px 3px; */
+  margin: 3px 3px;
 }
 
 .resultNumber {
@@ -54,6 +47,7 @@
 .calendar {
   height: 18px;
   margin: 5px 5px;
+  float: left;
 }
 
 .search {

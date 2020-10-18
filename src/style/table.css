@@ -25,6 +25,7 @@ thead button {
   font-size: inherit;
   padding: 0.5em;
   margin-bottom: 1px;
+  cursor: pointer;
 }
 
 thead button.ascending::after {
@@ -52,4 +53,5 @@ tbody td {
 tbody tr:hover {
   background-color: #e0e0e0;
   color: blue;
+  cursor: pointer;
 }
