@@ -12,7 +12,7 @@ There are three main parts, but for reusability they have been split in more com
 
 The head mainly contains the date picker and clicking on the search icon filters the "archived" emails, which can be found in /src/assets/emails.json. A date picker was chosen over an input field, since it would guide the user to give the correct input and a minimum of validation would be necessary. From a security point of view, it is also preferable to not let a user input unexpected scripts etc.
 
-** Filtering with the date picker needs to align with the dates which the sample emails have been set to: Currently: 5 emails in the range of 20th to 25th October **
+**Filtering with the date picker needs to align with the dates which the sample emails have been set to: Currently: 5 emails in the range of 20th to 25th October**
 
 ### Email Table
 
