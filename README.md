@@ -1,3 +1,5 @@
+![Sample output](sample_mailbox.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
