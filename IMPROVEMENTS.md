@@ -1,6 +1,4 @@
-This project was built for the application to Hennge frontend position.
-
-## Not completely satisfied requirements
+## Not completed
 
 - Displaying the table used for the emails in a mobile friendly way: in the table.css I started a media query for this purpose, but displaying th and td as blocks and assigning the cells to the correct headers did not work as intended and would still have a different outcome than the expected result.
 - Due to the previous point, including the images icon_arrow02 and icon_mail_sp was pointless, since they would be barely visible
