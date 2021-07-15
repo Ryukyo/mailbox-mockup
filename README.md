@@ -1,5 +1,3 @@
-This project was built for the application to Hennge frontend position.
-
 ## Available Scripts
 
 In the project directory, you can run:
